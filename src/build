@@ -1,0 +1,1 @@
+gmcs -r:System.Drawing.dll -r:System.Windows.Forms.dll -out:../JobSchedSimulator.exe *.cs
