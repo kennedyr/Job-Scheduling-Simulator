@@ -1,0 +1,6 @@
+To Run the executable use Mono:
+mono JobSchedSimulator.exe [input file] [quantum]
+
+To Compile the src use gmcs. There is a file named build that runs gmcs with the following options:
+gmcs -r:System.Drawing.dll -r:System.Windows.Forms.dll -out:../JobSchedSimulator.exe *.cs
+ 
